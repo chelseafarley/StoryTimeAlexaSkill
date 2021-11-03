@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "story time",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "TellMeAStoryIntent",
+          "slots": [],
+          "samples": [
+            "tell me a tale",
+            "I want to hear a story",
+            "it\u0027s story time",
+            "tell me a story"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}
